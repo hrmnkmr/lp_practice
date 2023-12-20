@@ -70,23 +70,19 @@ li a {
 
 .skills-inner{
   background: #e3f2fd;
-
 }
+
 
 .text{
   position: absolute;
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-
 }
 
 .work,.text{
   margin: 0;
 }
-
-
-
 
 .pc::before{
   content: "";
