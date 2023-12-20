@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background: #fff;
+}
+
+
+
+
+.inner-logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+
+.logo {
+  color: #777;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+li {
+  padding: 30px;
+  display: inline-block;
+}
+
+li a {
+  color: #ffffff;
+  background-color: #6ba7eb;
+  font-size: 12px;
+  padding: 12px 14px;
+}
+
+.keyvisual {
+  height: 800px;
+  background: url(../image/keyvisual.jpg)no-repeat center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.web {
+  position: absolute;
+  color: #6ba7eb;
+  font-size: 65px;
+  font-weight: 700;
+  margin: 0;
+  bottom: 400px;
+}
+
+.direction {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  bottom: 340px;
+}
+
+.work{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.skills-inner{
+  background: #e3f2fd;
+
+}
+
+.text{
+  position: absolute;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+
+}
+
+.work,.text{
+  margin: 0;
+}
+
+
+
+
+.pc::before{
+  content: "";
+  display: inline-block;
+  margin-top: 50px;
+  vertical-align: middle;
+  width: 250px;
+  height: 200px;
+  background: url(../image/pc.png)no-repeat center/cover;
+}
