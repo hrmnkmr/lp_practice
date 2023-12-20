@@ -9,9 +9,6 @@ a {
   background: #fff;
 }
 
-
-
-
 .inner-logo {
   display: flex;
   justify-content: space-between;
@@ -92,4 +89,8 @@ li a {
   width: 250px;
   height: 200px;
   background: url(../image/pc.png)no-repeat center/cover;
+}
+
+.skills{
+  background: #fff;
 }
