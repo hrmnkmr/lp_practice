@@ -11,20 +11,18 @@ a {
 
 .inner-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
-
 }
 
 .logo {
   color: #777;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 li {
-  padding: 30px;
   display: inline-block;
+  margin: 15px;
 }
 
 li a {
@@ -60,37 +58,198 @@ li a {
   bottom: 340px;
 }
 
-.work{
+.first-title{
   font-size: 40px;
-  margin-top: 20px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  margin: 35px;
 }
 
-.skills-inner{
+.card-img a {
+  padding: 20px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.skills-inner {
   background: #e3f2fd;
+  display: flex;
 }
 
+.card-img {
+  text-align: center;
+  padding: 20px;
+}
 
-.text{
-  position: absolute;
+.card-list {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
 }
 
-.work,.text{
+.work,
+.text {
   margin: 0;
 }
 
-.pc::before{
+.pc::before {
   content: "";
   display: inline-block;
   margin-top: 50px;
-  vertical-align: middle;
   width: 250px;
   height: 200px;
   background: url(../image/pc.png)no-repeat center/cover;
 }
 
-.skills{
+.skills {
+  margin-bottom: 70px;
+}
+
+.bg-white {
   background: #fff;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.LOGO,
+.Instagram,
+.Cloud,
+.PRODUCTION,
+.Photo,
+.headphones {
+  width: 300px;
+  height: 300px;
+}
+
+.LOGO {
+  background: url(../image/skills_1.png)no-repeat center/cover;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.Instagram {
+  background: url(../image/skills_2.png)no-repeat center/cover;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.Cloud {
+  background: url(../image/skills_3.png)no-repeat center/cover;
+  margin-bottom: 100px;
+}
+
+.PRODUCTION {
+  background: url(../image/skills_4.png)no-repeat center/cover;
+  margin-right: 100px;
+}
+
+.PRODUCTION:nth-child(2n) {
+  clear: both;
+  margin-left: 0;
+}
+
+.Photo {
+  background: url(../image/skills_5.png)no-repeat center/cover;
+  margin-right: 100px;
+}
+
+.headphones {
+  background: url(../image/skills_6.png)no-repeat center/cover;
+}
+
+.second-title {
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.plan {
+  background-color: #d0dfea;
+}
+
+.third-tytle{
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+.bg-light_blue {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.cell-table {
+  background-position: center;
+  width: 1100px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th {
+  background: #6ba7eb;
+}
+
+th,
+td,
+thead {
+  border-left: 2px solid #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+th,
+td {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+tr {
+  background: #e0efff;
+}
+
+tr:nth-child(2n+1) {
+  background: #f9f9f9;
+}
+
+.sns-logo {
+  background: #e3f2fd;
+  text-align: center;
+  padding: 200px;
+}
+
+.s_logo {
+  font-size: 40px;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+}
+
+.footer {
+  background: #cfd8dc;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.word {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: #8c8c8c;
+}
+
+.inner_logo{
+  text-align: right;
+}
+
+a i{
+  width: 185px;
+  color: #8c8c8c;
 }
