@@ -200,9 +200,8 @@ th {
 }
 
 th,
-td,
-thead {
-  border-left: 2px solid #fff;
+td{
+  border-right: 2px solid #fff;
   padding: 10px;
   text-align: center;
 }
