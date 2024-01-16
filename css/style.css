@@ -1,28 +1,32 @@
 @charset "utf-8";
 
-a {
-  text-decoration: none;
-}
-
-.header {
-  width: 100%;
+.header_inner {
   background: #fff;
+  position: fixed;
+  width: 100%;
 }
 
-.inner-logo {
+.inner_logo{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1100px;
   margin: 0 auto;
+}
+
+.main_inner{
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
   color: #777;
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 li {
-  display: inline-block;
-  margin: 15px;
+  margin: 30px;
 }
 
 li a {
@@ -32,10 +36,13 @@ li a {
   padding: 12px 14px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .keyvisual {
-  height: 800px;
+  padding: 400px;
   background: url(../image/keyvisual.jpg)no-repeat center/cover;
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -54,11 +61,10 @@ li a {
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
-  margin: 0;
   bottom: 340px;
 }
 
-.first-title{
+.first-title {
   font-size: 40px;
   letter-spacing: 10px;
   padding-top: 20px;
@@ -70,18 +76,16 @@ li a {
 }
 
 .a {
-  text-decoration: none;
   display: flex;
 }
 
-.skills-inner {
+.skills_inner {
   background: #e3f2fd;
   display: flex;
 }
 
 .card-img {
   text-align: center;
-  padding: 20px;
 }
 
 .card-list {
@@ -112,7 +116,7 @@ li a {
   background: #fff;
 }
 
-.box a{
+.box a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -175,7 +179,7 @@ li a {
   background-color: #d0dfea;
 }
 
-.third-tytle{
+.third-tytle {
   font-size: 40px;
   letter-spacing: 10px;
   padding: 50px;
@@ -200,7 +204,7 @@ th {
 }
 
 th,
-td{
+td {
   border-right: 2px solid #fff;
   padding: 10px;
   text-align: center;
@@ -220,7 +224,7 @@ tr:nth-child(2n+1) {
   background: #f9f9f9;
 }
 
-.nobrder{
+.nobrder {
   border-left: none;
 }
 
@@ -237,10 +241,13 @@ tr:nth-child(2n+1) {
   justify-content: center;
 }
 
-.footer {
+.footer_inner {
   background: #cfd8dc;
   padding-top: 20px;
   padding-bottom: 25px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .word {
@@ -249,11 +256,13 @@ tr:nth-child(2n+1) {
   color: #8c8c8c;
 }
 
-.inner_logo{
-  text-align: right;
-}
-
-a i{
+a i {
   width: 185px;
   color: #8c8c8c;
+}
+
+.inner_word{
+  width: 1100px;
+  margin: 0 auto;
+  text-align: right;
 }
