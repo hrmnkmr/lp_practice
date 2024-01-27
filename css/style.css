@@ -4,6 +4,7 @@
   background: #fff;
   position: fixed;
   width: 100%;
+  padding: 15px;
 }
 
 .inner_logo {
@@ -20,11 +21,10 @@
 
 .logo {
   color: #777;
-  padding: 15px;
 }
 
 li {
-  padding: 30px;
+  padding: 10px;
 }
 
 li a {
