@@ -14,11 +14,6 @@
   margin: 0 auto;
 }
 
-.inner {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .logo {
   color: #777;
 }
@@ -36,6 +31,10 @@ li a {
 
 a {
   text-decoration: none;
+}
+
+.main{
+  padding-top: 75px;
 }
 
 .keyvisual{
@@ -96,9 +95,9 @@ img{
 }
 
 .pc_png{
-  margin-top: 50px;
-  margin-left: 250px;
-  margin-right: 100px;
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 100px;
 }
 
 .list{
@@ -228,7 +227,7 @@ tr:nth-child(2n+1) {
 .sns-logo {
   background: #e3f2fd;
   text-align: center;
-  padding: 200px;
+  padding-top: 200px;
 }
 
 .s_logo {
@@ -236,6 +235,7 @@ tr:nth-child(2n+1) {
   display: flex;
   padding: 25px;
   justify-content: center;
+  padding-bottom: 200px;
 }
 
 .footer_inner {
@@ -262,3 +262,4 @@ a i {
   margin: 0 auto;
   text-align: right;
 }
+
