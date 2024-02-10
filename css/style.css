@@ -34,13 +34,17 @@ a {
 }
 
 .main{
-  padding-top: 75px;
+  padding-top: 78px;
 }
 
 .keyvisual{
   padding-top: 400px;
   padding-bottom: 400px;
   background: url(../image/keyvisual.jpg)no-repeat center/cover;
+}
+
+.inner{
+  width: 100%
 }
 
 img{
@@ -95,9 +99,9 @@ img{
 }
 
 .pc_png{
-  padding-top: 50px;
-  padding-left: 250px;
-  padding-right: 100px;
+  margin-top: 50px;
+  width: 250px;
+  margin-left: 190px;
 }
 
 .list{
