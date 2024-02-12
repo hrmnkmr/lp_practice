@@ -43,8 +43,13 @@ a {
   background: url(../image/keyvisual.jpg)no-repeat center/cover;
 }
 
+.work{
+  background: #e3f2fd;
+}
+
 .inner{
-  width: 100%
+  width: 1100px;
+  margin-inline: auto;
 }
 
 img{
@@ -83,12 +88,15 @@ img{
 }
 
 .skills_inner {
-  background: #e3f2fd;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .text_area {
   text-align: center;
+  margin-left: 70px;
+  width: 660px;
 }
 
 .text {
@@ -100,12 +108,7 @@ img{
 
 .pc_png{
   margin-top: 50px;
-  width: 250px;
-  margin-left: 190px;
-}
-
-.list{
-  width: 660px;
+  padding-left: 100px;
 }
 
 .skills {
