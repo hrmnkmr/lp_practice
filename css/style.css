@@ -7,13 +7,6 @@
   padding: 15px;
 }
 
-.inner_logo {
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto;
-}
-
 .logo {
   color: #777;
 }
@@ -87,15 +80,17 @@ img{
   display: flex;
 }
 
-.skills_inner {
+.skills-inner {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+}
+
+.pc_area{
+  text-align: center;
 }
 
 .text_area {
   text-align: center;
-  margin-left: 70px;
   width: 660px;
 }
 
@@ -108,11 +103,11 @@ img{
 
 .pc_png{
   margin-top: 50px;
-  padding-left: 100px;
+  padding-left: 190px;
 }
 
 .skills {
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .bg-white {
