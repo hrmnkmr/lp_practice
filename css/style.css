@@ -86,13 +86,12 @@ img{
 }
 
 .pc_area{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .text_area {
   text-align: center;
-  width: 660px;
+  width: 60%;
 }
 
 .text {
@@ -103,7 +102,7 @@ img{
 }
 
 .pc_png{
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .skills {
