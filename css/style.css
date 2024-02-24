@@ -48,7 +48,7 @@ a {
 
 .inner {
   width: 1100px;
-  text-align: center;
+  margin: 0 auto;
 }
 
 img {
@@ -128,7 +128,7 @@ img {
   justify-content: center; 
 }
 
-.box a:hover{
+.hover-transparency:hover{
   opacity: 1.0;
 }
 
@@ -137,29 +137,26 @@ img {
   height: 300px;
 }
 
-.logo {
-  background: url(../image/skills_1.png)no-repeat center/cover;
+.skills_1_png,
+.skills_2_png{
+  margin-right: 100px;
 }
 
-.instagram {
-  background: url(../image/skills_2.png)no-repeat center/cover;
+.skills_4_png,
+.skills_5_png{
+  margin-right: 100px;
 }
 
-.cloud {
-  background: url(../image/skills_3.png)no-repeat center/cover;
+.skills_1_png,
+.skills_2_png,
+.skills_3_png,
+.skills_4_png,
+.skills_5_png,
+.skills_6_png{
+  height: 300px;
+  width: 300px;
 }
 
-.production {
-  background: url(../image/skills_4.png)no-repeat center/cover;
-}
-
-.photo {
-  background: url(../image/skills_5.png)no-repeat center/cover;
-}
-
-.headphones {
-  background: url(../image/skills_6.png)no-repeat center/cover;
-}
 
 .second-title {
   text-align: center;
