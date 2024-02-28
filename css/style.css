@@ -120,12 +120,17 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   opacity: 0.7;
 }
 
+
 .box a {
   display: flex;
-  justify-content: center; 
+}
+
+.box a:nth-child(2){
+  margin: 0 100px;
 }
 
 .hover-transparency:hover{
@@ -137,26 +142,10 @@ img {
   height: 300px;
 }
 
-.skills_1_png,
-.skills_2_png{
-  margin-right: 100px;
-}
-
-.skills_4_png,
-.skills_5_png{
-  margin-right: 100px;
-}
-
-.skills_1_png,
-.skills_2_png,
-.skills_3_png,
-.skills_4_png,
-.skills_5_png,
-.skills_6_png{
+.skils_image{
   height: 300px;
   width: 300px;
 }
-
 
 .second-title {
   text-align: center;
