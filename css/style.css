@@ -175,7 +175,7 @@ a {
   justify-items: start;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1199px) {
+@media screen and (min-width:766px) and (max-width:1198px) {
   .box {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -184,9 +184,8 @@ a {
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1199px) {
-
-  .img_3 {
+@media screen and (min-width:766px) and (max-width:1198px) {
+  .box:nth-child(4n+3) {
     margin-bottom: 80px;
   }
 }
@@ -276,7 +275,8 @@ tr:nth-child(2n+1) {
 @media screen and (max-width: 766px) {
   .sns-logo {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -295,7 +295,7 @@ tr:nth-child(2n+1) {
   .logo_3,
   .logo_4 {
     flex-direction: column;
-    padding-bottom: 100px;
+    padding: 50px;
   }
 }
 
@@ -305,12 +305,6 @@ tr:nth-child(2n+1) {
   padding-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media screen and (max-width: 766px) {
-  .footer_inner {
-    padding-top: 50px;
-  }
 }
 
 .word {
@@ -329,6 +323,12 @@ a i:hover {
   padding: 25px;
   width: 185px;
   transition: .5s;
+}
+
+@media screen and (max-width: 766px) {
+  a i:hover {
+    padding: 50px;
+  }
 }
 
 .inner_word {
