@@ -176,8 +176,8 @@ a {
 }
 
 @media screen and (min-width:767px) and (max-width:1199px) {
-  .ul li:nth-of-type(3n) {
-    grid-template-columns: 1fr;
+  .skills_image:nth-of-type(3n) {
+    grid-auto-flow: row;
     justify-items: center;
     align-items: center;
     row-gap: 80px;
