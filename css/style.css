@@ -11,12 +11,6 @@
   color: #777;
 }
 
-@media screen and (max-width: 766px) {
-  .inner {
-    width: 100%;
-  }
-}
-
 .manu {
   margin: 10px;
 }
@@ -165,6 +159,12 @@ a {
 .inner {
   width: 1100px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 766px) {
+  .inner {
+    width: 100%;
+  }
 }
 
 .pc_png {
