@@ -11,6 +11,12 @@
   color: #777;
 }
 
+@media screen and (max-width: 766px) {
+  .inner {
+    width: 100%;
+  }
+}
+
 .manu {
   margin: 10px;
 }
@@ -63,7 +69,6 @@ a {
   width: 30px;
   cursor: pointer;
 }
-
 
 .hamburger-icon span {
   width: 100%;
