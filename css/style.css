@@ -497,14 +497,12 @@ tr:nth-child(2n+1) {
 a i {
   width: 185px;
   color: #8c8c8c;
-  transition: .5s;
+  transition: all 0.5s;
+  padding: 25px;
 }
 
 a i:hover {
   background: #fff;
-  padding: 25px;
-  width: 185px;
-
 }
 
 @media screen and (max-width: 766px) {
