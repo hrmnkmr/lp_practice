@@ -374,7 +374,6 @@ a {
 }
 @media screen and (max-width: 767px) {
 	.second-title {
-		white-space: nowrap;
 		width: 97%;
 	}
 }
@@ -472,7 +471,6 @@ tr:nth-child(2n+1) {
 		flex-direction: column;
 		padding-top: 50px;
 		padding-bottom: 50px;
-		max-width: 100%;
 		align-items: center;
 	}
 }
@@ -500,6 +498,12 @@ tr:nth-child(2n+1) {
 	transition: all 0.5s;
 	padding-top: 25px;
 	padding-bottom: 25px;
+}
+@media screen and (max-width: 767px) {
+	.s_logo a {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 .s_logo a:hover {
 	background: #fff;
