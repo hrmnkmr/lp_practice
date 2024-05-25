@@ -4,6 +4,7 @@
 	position: fixed;
 	width: 100%;
 	padding: 15px;
+	z-index: 1;
 }
 .home {
 	color: #777;
@@ -162,7 +163,6 @@ a {
 	padding-top: 400px;
 	padding-bottom: 400px;
 	background: url(../image/keyvisual.jpg)no-repeat center/cover;
-	margin-top: 50px;
 }
 @media screen and (max-width: 1199px) {
 	.keyvisual {
@@ -512,6 +512,7 @@ tr:nth-child(2n+1) {
 	.s_logo a {
 		padding-top: 50px;
 		padding-bottom: 50px;
+		width: 100px;
 	}
 }
 .inner_word {
