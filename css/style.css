@@ -9,139 +9,60 @@
 .home {
 	color: #777;
 }
-@media screen and (max-width: 767px) {
-	.hamburger-icon {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		height: 24px;
-		width: 30px;
-		cursor: pointer;
-	}
-}
-a {
-	text-decoration: none;
-}
-.main {
-	padding-top: 78px;
-}
-.btn-burger {
-	cursor: pointer;
-	display: block;
-	width: 56px;
-	height: 60px;
-	position: absolute;
-	top: 5px;
+.menu__button {
+	position: fixed;
 	right: 10px;
+	z-index: 1;
 }
-/*ハンバーガーアイコンを作る三本線*/
-
-.icon, .icon:before, .icon:after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	height: 2px;
-	/*線の太さ*/
-	width: 35px;
-	/*線の長さ*/
-	background-color: #444;
-	border-radius: 2px;
-	display: block;
-	content: '';
-	cursor: pointer;
-	margin: auto;
-}
-/*三本線の間隔*/
-
-.icon:before {
-	top: 20px;
-}
-.icon:after {
-	top: -20px;
-}
-/*チェックボックス非表示*/
-
-.nav-toggle {
-	display: none;
-}
-/*アイコンをクリックしたら*/
-
-.nav-toggle:checked~.btn-burger .icon {
-	background: transparent;
-}
-.nav-toggle:checked~.btn-burger .icon:before {
-	transform: rotate(-45deg);
-	top: 0;
-}
-.nav-toggle:checked~.btn-burger .icon:after {
-	transform: rotate(45deg);
-	top: 0;
-}
-.icon, .icon:before, .icon:after {
-	transition: all .8s;
-}
-/*中身*/
-
-.nav-list a {
-	display: block;
-	text-decoration: none;
-	color: #fff;
-}
-.nav-list {
-	list-style: none;
-	display: none;
-	margin: 0;
-	padding-left: 20px;
-}
-.nav-list li {
-	margin: 0;
-	padding: 10px;
-}
-.nav-toggle:checked~.nav .nav-list {
-	display: block;
-}
-/*メインイメージ*/
-
-.top {
-	height: 200px;
-	margin-bottom: 50px;
-	background-color: #f0f8ff;
-}
-/* --------------------------------------------------
-幅768px以上のスタイル指定 ここから
--------------------------------------------------- */
-
-@media screen and (min-width: 767px) {
-	/* ハンバーガーボタン */
-	.btn-burger {
-		display: none;
-		/*768px以上では使用しない */
+@media screen and (max-width: 767px) {
+	.drawer {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 0;
+		height: 100%;
+		background-color: pink;
+		transition: .2s;
 	}
-	.logo {
-		width: auto;
-		margin: 0 0 20px;
-		padding: 0;
-		text-align: center;
+	.menu--isOpen {
+		width: 40vw;
 	}
-	.nav-toggle:checked~.nav .nav-list {
-		display: none;
+	.menu__button {
+		position: fixed;
+		right: 10px;
+		top: 10px;
+		width: 50px;
+		height: 50px;
+		background-color: rgba(200, 200, 230, .7);
+		border-radius: 5px;
+		border: none;
 	}
-	.nav {
-		height: 75px;
+	.drawer span {
+		display: block;
+		width: 80%;
+		margin: auto;
+		height: 4px;
+		background-color: #000;
+		border-radius: 3px;
+		transition: .2s;
 	}
-	.nav-list {
-		display: flex;
-		justify-content: center;
-		height: 75px;
-		align-items: center;
+	.menu__lineTop {
+		transform: translateY(-10px);
 	}
-	.nav-list li:not(:last-child) {
-		border-right: 1px solid #fff;
+	.menu__lineBottom {
+		transform: translateY(10px);
+	}
+	.menu--isOpen .menu__lineTop {
+		transform: rotate(45deg);
+	}
+	.menu--isOpen .menu__lineMiddle {
+		opacity: 0;
+	}
+	.menu--isOpen .menu__lineBottom {
+		transform: rotate(-45deg);
 	}
 }
-.manu {
+.contact {
 	margin: 10px;
 }
 .manu a {
@@ -158,6 +79,12 @@ a {
 .manu a:hover {
 	color: #333;
 	transition: color 0.3s ease 0s;
+}
+a {
+	text-decoration: none;
+}
+.main {
+	padding-top: 78px;
 }
 .keyvisual {
 	padding-top: 400px;
