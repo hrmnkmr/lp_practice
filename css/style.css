@@ -1,5 +1,5 @@
 @charset "utf-8";
-.header_inner {
+.header {
 	background: #fff;
 	position: fixed;
 	width: 100%;
@@ -10,9 +10,7 @@
 	color: #777;
 }
 .menu__button {
-	position: fixed;
-	right: 10px;
-	z-index: 1;
+	display: none;
 }
 @media screen and (max-width: 767px) {
 	.drawer {
@@ -28,6 +26,7 @@
 		width: 40vw;
 	}
 	.menu__button {
+		display: block;
 		position: fixed;
 		right: 10px;
 		top: 10px;
@@ -63,20 +62,20 @@
 	}
 }
 .contact {
-	margin: 10px;
+	padding: 15px;
 }
-.manu a {
+a {
 	color: #ffffff;
 	background-color: #6ba7eb;
 	font-size: 12px;
 	padding: 12px 14px;
 }
 @media screen and (max-width: 767px) {
-	.manu a {
+	a {
 		display: none;
 	}
 }
-.manu a:hover {
+a:hover {
 	color: #333;
 	transition: color 0.3s ease 0s;
 }
