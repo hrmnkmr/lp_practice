@@ -177,11 +177,6 @@ main {
 		align-items: center;
 	}
 }
-@media screen and (max-width: 767px) {
-	.box li:nth-of-type(3n) {
-		margin-bottom: 80px;
-	}
-}
 .pc_area {
 	margin: auto;
 	text-align: center;
@@ -243,7 +238,7 @@ main {
 .box {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	gap: 100px;
 }
 @media screen and (max-width: 767px) {
 	.skills-inner, .box {
@@ -255,50 +250,12 @@ main {
 	.box {
 		flex-direction: column;
 		align-items: center;
+		gap: 0;
 	}
 }
-.box li {
-	margin-right: 100px;
-}
-@media screen and (max-width: 767px) {
-	.box li {
-		margin-right: 0px;
-	}
-}
-.box li:nth-of-type(3n) {
-	margin-right: 0px;
-}
-.box li:nth-child(n+4) {
-	margin-top: 100px;
-}
-@media screen and (max-width: 767px) {
-	.box li:nth-child(3n+3) {
+@media screen and (max-width: 1199px) {
+	.box li:nth-child(3n) {
 		margin-bottom: 80px;
-	}
-}
-@media screen and (max-width: 767px) {
-	.box li:nth-child(3) {
-		margin-bottom: 0px;
-	}
-}
-@media screen and (max-width: 1199px) {
-	.box li:nth-child(n+1) {
-		margin-right: 0px;
-	}
-}
-@media screen and (max-width: 1199px) {
-	.box li:nth-child(n+4) {
-		margin-top: 0px;
-	}
-}
-@media screen and (max-width: 1199px) {
-	.box li:nth-child(3n+3) {
-		margin-bottom: 80px;
-	}
-}
-@media screen and (max-width: 1199px) {
-	.box li:nth-child(6) {
-		padding-bottom: 0px;
 	}
 }
 .box img:hover {
