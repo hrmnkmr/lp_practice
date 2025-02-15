@@ -341,11 +341,11 @@ tr:nth-child(2n+1) {
 		gap: 0;
 	}
 	.box li:nth-child(3n) {
-		margin-bottom: 80px;
+		margin-bottom: 70px;
 	}
 
 	.box li:last-child {
-		margin-bottom: 80px;
+		margin-bottom: 70px;
 	}
 
 	.bg-light_blue {
@@ -357,7 +357,7 @@ tr:nth-child(2n+1) {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	.word {
-		font-size: 12px;
+		font-size: 10px;
 		width: 97%;
 	}
 }
